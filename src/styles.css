@@ -1,0 +1,104 @@
+/* Import Colors */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+@import "@radix-ui/colors/sand.css";
+@import "@radix-ui/colors/whiteA.css";
+@import "@radix-ui/colors/slate.css";
+@import "@radix-ui/colors/red.css";
+
+/* Body */
+.Login {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(--sand12);
+}
+
+/* Input & Label */
+
+input {
+  all: unset;
+}
+
+.LabelRoot {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
+
+.Input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 10px;
+  height: 35px;
+  font-size: 15px;
+  line-height: 1;
+  color: white;
+  background-color: var(--whiteA5);
+  box-shadow: 0 0 0 1px var(--whiteA9);
+}
+.Input:focus {
+  box-shadow: 0 0 0 1px rgb(255, 255, 255);
+}
+.Input::selection {
+  background-color: var(--whiteA9);
+  color: white;
+}
+
+.Input::placeholder {
+  color: white;
+  opacity: 50%;
+}
+
+.Title-Home p,
+.features-title {
+  background: -webkit-linear-gradient(#6e00ff, #e1adf0, #ffd900);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-top {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.image-features {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-justify: center;
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 9px;
+  box-sizing: border-box;
+
+  -webkit-box-shadow: 2px -3px 10px 1px rgba(110, 0, 255, 0.56),
+    2px 5px 10px 4px rgba(255, 217, 0, 0.66);
+  box-shadow: 2px -3px 10px 2px rgba(110, 0, 255, 0.56),
+    2px 5px 10px 4px rgba(255, 217, 0, 0.66);
+  margin: 20px 0px;
+}
+
+.image-features h4 {
+  text-align: center;
+}
+
+.image-features img {
+  width: 100%;
+  max-height: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 30px;
+}

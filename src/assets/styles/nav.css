@@ -1,0 +1,112 @@
+@import "./colors.css";
+
+.Nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 45px;
+  margin-bottom: 55px;
+  height: 85px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  -webkit-border-image: linear-gradient(
+      to right,
+      var(--dark-lime),
+      var(--purple),
+      var(--pink),
+      var(--yellow)
+    )
+    1;
+  -o-border-image: linear-gradient(
+      to right,
+      var(--dark-lime),
+      var(--purple),
+      var(--pink),
+      var(--yellow)
+    )
+    1;
+  border-image: linear-gradient(
+      to right,
+      var(--dark-lime),
+      var(--purple),
+      var(--pink),
+      var(--yellow)
+    )
+    1;
+}
+
+.Footer {
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 45px;
+  margin-top: 55px;
+  margin-bottom: 0px;
+  height: 85px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  -webkit-border-image: linear-gradient(
+      to right,
+      var(--dark-lime),
+      var(--purple),
+      var(--pink),
+      var(--yellow)
+    )
+    1;
+  -o-border-image: linear-gradient(
+      to right,
+      var(--dark-lime),
+      var(--purple),
+      var(--pink),
+      var(--yellow)
+    )
+    1;
+  border-image: linear-gradient(
+      to right,
+      var(--dark-lime),
+      var(--purple),
+      var(--pink),
+      var(--yellow)
+    )
+    1;
+}
+
+.Logo {
+  max-height: 50px;
+}
+
+.ButtonsNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButtonNav {
+  color: white;
+  margin: 0px 30px;
+}
+
+.Newsletter{
+  border-radius: 20px;
+  padding: 50px;
+  background-color: #e1adf0;
+  display: flex;
+}
+
+.Newsletter div{
+  width: 50%;
+}
+
+.Newsletter h3{
+  color: #151515;
+  font-size: 50px;
+}
+
+.input-newsletter{
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #151515;
+  color: white;
+  width: 40%;
+  height: min-content;
+  margin-top: auto;
+  border: white 1px solid;
+}

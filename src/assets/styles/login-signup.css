@@ -1,0 +1,226 @@
+@import "./colors.css";
+
+.Login {
+  color: white;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Login-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.Back {
+  align-items: center;
+  justify-content: center;
+  width: min-content;
+  color: white;
+  margin: auto;
+  display: flex;
+}
+
+.Back p {
+  margin: 5px;
+}
+
+input,
+textarea,
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.FormRoot {
+  margin: auto;
+  width: 65vw;
+  padding: 55px;
+}
+
+.FormField {
+  margin: 10px auto;
+  width: min-content;
+  display: grid;
+}
+
+.FormLabel {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
+
+.FormMessage {
+  margin-left: 15px;
+  font-size: 13px;
+  color: white;
+  opacity: 0.8;
+}
+
+.Input {
+  text-align: left;
+  width: 25vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 15px;
+  color: white;
+  background-color: #292929;
+  box-shadow: 0 0 0 1px #6f6f6f;
+}
+
+.Input:hover,
+.Textarea:hover {
+  box-shadow: 0 0 0 1px var(--light);
+}
+.Input:focus,
+.Textarea:focus {
+  box-shadow: 0 0 0 2px var(--light);
+}
+.Input::selection,
+.Textarea::selection {
+  background-color: var(--dark);
+  color: white;
+}
+
+.Input {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 1;
+}
+
+.ButtonLogin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  height: 35px;
+  width: 75;
+  background-color: var(--white);
+  color: var(--dark);
+  box-shadow: 0 2px 10px var(--dark);
+  border: 1px solid var(--white);
+}
+
+.ButtonLogin:hover {
+  color: var(--white);
+  background-color: var(--dark);
+  box-shadow: 2px 2px 10px var(--purple), -2px -2px 10px var(--yellow);
+}
+
+.ButtonLogin:focus {
+  box-shadow: 0 0 0 2px var(--dark);
+}
+
+.color-container {
+  height: 95px;
+  width: 95px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid var(--white);
+  outline: 7px solid rgba(255, 255, 255, 0.18);
+  margin-top: 20px;
+}
+
+.SelectTrigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 1;
+  height: 35px;
+  gap: 5px;
+  background-color: white;
+  color: var(--dark-lime);
+  box-shadow: 0 2px 10px black;
+}
+.SelectTrigger:hover {
+  background-color: white;
+}
+.SelectTrigger:focus {
+  box-shadow: 0 0 0 2px black;
+}
+.SelectTrigger[data-placeholder] {
+  color: var(--dark-lime);
+}
+
+.SelectIcon {
+  color: Var(--dark-lime);
+}
+
+.SelectContent {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 10px 38px -10px rgba(22, 23, 24, 0.35),
+    0px 10px 20px -15px rgba(22, 23, 24, 0.2);
+}
+
+.SelectViewport {
+  padding: 5px;
+}
+
+.SelectItem {
+  font-size: 13px;
+  line-height: 1;
+  color: var(--dark-lime);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding: 0 35px 0 25px;
+  position: relative;
+  user-select: none;
+}
+
+.SelectItem[data-highlighted] {
+  outline: none;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.SelectLabel {
+  padding: 0 25px;
+  font-size: 12px;
+  line-height: 25px;
+  color: var(--dark-lime);
+}
+
+.SelectSeparator {
+  height: 1px;
+  background-color: var(--dark);
+  opacity: 0.2;
+  margin: 5px;
+}
+
+.SelectItemIndicator {
+  position: absolute;
+  left: 0;
+  width: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SelectScrollButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background-color: white;
+  color: var(--dark-lime);
+  cursor: default;
+}

@@ -1,0 +1,134 @@
+@import "./colors.css";
+
+.TitleContacts {
+  text-align: center;
+  color: var(--white);
+}
+
+.Contacts {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--dark);
+}
+
+.ContactsContainer {
+  padding: 55px;
+}
+
+.SocialMedia{
+    margin: auto;
+    width: 15vw;
+    align-items: center;
+}
+
+.IconSocialMedia{
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+/* reset */
+input,
+textarea,
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.FormRootContacts{
+  width: 65vw;
+  padding: 55px;
+}
+
+.FormFieldContacts {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.FormLabelContacts {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
+
+.FormMessageContacts {
+  margin-left: 15px;
+  font-size: 13px;
+  color: white;
+  opacity: 0.8;
+}
+
+.InputContacts {
+  width: 25vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 15px;
+  color: white;
+  background-color: #292929;
+  box-shadow: 0 0 0 1px #6f6f6f;
+}
+
+.TextareaContacts {
+    height: 15vh;
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 15px;
+  color: white;
+  background-color: #292929;
+  box-shadow: 0 0 0 1px #6f6f6f;
+  padding: 10px;
+}
+.Input:hover,
+.Textarea:hover {
+  box-shadow: 0 0 0 1px var(--light);
+}
+.Input:focus,
+.Textarea:focus {
+  box-shadow: 0 0 0 2px var(--light);
+}
+.Input::selection,
+.Textarea::selection {
+  background-color: var(--dark);
+  color: white;
+}
+
+.Input {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 1;
+}
+
+.ButtonContact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  height: 35px;
+  width: 75;
+  background-color: var(--white);
+  color: var(--dark);
+  box-shadow: 0 2px 10px var(--dark);
+  border: 1px solid var(--white);
+}
+
+.ButtonContact:hover {
+  color: var(--white);
+  background-color: var(--dark);
+  box-shadow: 2px 2px 10px var(--purple), -2px -2px 10px var(--yellow);
+}
+
+.ButtonContact:focus {
+  box-shadow: 0 0 0 2px var(--dark);
+}
